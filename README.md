@@ -30,13 +30,29 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+# forEach simply loops over an array
+# map loops over the array and returns each array item altered
+
 2. What is the difference between a function and a method?
+
+# a method is a function stored in an object's property
 
 3. What is closure?
 
+# The ability for inner code blocks to be able to access variables outside of its code block that are inside the code blocks its surrounded by
+
 4. Describe the four rules of the 'this' keyword.
 
+# outside of an object and inside arrow functions this always references the window object
+# implicit this binding occurs inside an object
+# the new keyword binds the value of this to the Object Literal within the constructor function
+# an explicit binding occurs when a function is bound to an object using .call() .apply() or .bind()
+
 5. Why do we need super() in an extended class?
+
+# It performs two things necessary for Prototypical Inheritance:
+# Child.prototype = Object.create(Parent.prototype);
+# Inside the constructor of the Child: Parent.call(this, args);
 
 ## Project Set up
 
