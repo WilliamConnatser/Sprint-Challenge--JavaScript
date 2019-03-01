@@ -22,16 +22,16 @@ const velociraptor = dinosaurFactory('velociraptor', 'carnivorous', '15kg', '1.8
 // Using your dinosaur objects, log answers to these questions:
 
 // How much did tyrannosaurus weigh?
-console.log(tyrannosaurus.weight);
+//console.log(tyrannosaurus.weight);
 
 // What was the diet of a velociraptor?
-console.log(velociraptor.diet);
+//console.log(velociraptor.diet);
 
 // How long was a stegosaurus?
-console.log(stegosaurus.length);
+//console.log(stegosaurus.length);
 
 // What time period did tyrannosaurus live in?
-console.log(tyrannosaurus.period);
+//console.log(tyrannosaurus.period);
 
 
 // Create a new roar method for the tyrannosaurus.  When called, return "RAWERSRARARWERSARARARRRR!" Log the result.
@@ -39,7 +39,7 @@ tyrannosaurus.roar = function () {
   return "RAWERSRARARWERSARARARRRR!";
 }
 
-console.log(tyrannosaurus.roar());
+//console.log(tyrannosaurus.roar());
 
 
 // ==== Arrays ====
