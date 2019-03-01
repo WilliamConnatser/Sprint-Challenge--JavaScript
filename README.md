@@ -30,12 +30,12 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
-#forEach simply loops over an array
-#map loops over the array and returns each array item altered
+# forEach simply loops over an array
+# map loops over the array and returns each array item altered
 
 2. What is the difference between a function and a method?
 
-#a method is a function stored in an object's property
+# a method is a function stored in an object's property
 
 3. What is closure?
 
@@ -50,9 +50,9 @@ Edit this document to include your answers after each question. Make sure to lea
 
 5. Why do we need super() in an extended class?
 
-#It performs two things necessary for Prototypical Inheritance:
-#Child.prototype = Object.create(Parent.prototype);
-#Inside the constructor of the Child: Parent.call(this, args);
+# It performs two things necessary for Prototypical Inheritance:
+# Child.prototype = Object.create(Parent.prototype);
+# Inside the constructor of the Child: Parent.call(this, args);
 
 ## Project Set up
 
